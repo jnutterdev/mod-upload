@@ -7,6 +7,7 @@ A barebones project to bootstrap MySQL, Express.js, and Node.js. Features includ
     - Located under    
 - Login/Signup page
 - File upload
+- Nodemon for hot reloading
 
 ## Project setup
 ```
@@ -15,5 +16,5 @@ npm install
 
 ### Run
 ```
-node server.js
+nodemon server.js
 ```
