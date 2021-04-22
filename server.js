@@ -33,10 +33,10 @@ app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, '/app/views'));
 // simple route
 app.get("/ping", (req, res) => {
-  res.json({ message: "Simple user management system." });
+  res.json({ message: "Simple API system working." });
 });
 
-require("./app/server/routes/customer.routes.js")(app);
+require("./app/server/routes/index.js")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 3000;
