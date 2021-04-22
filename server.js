@@ -36,7 +36,9 @@ app.get("/ping", (req, res) => {
   res.json({ message: "Simple API system working." });
 });
 
-require("./app/server/routes/index.js")(app);
+// current routes used for app
+require("./app/server/routes/main.routes.js")(app);
+require("./app/server/routes/customer.routes.js")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 3000;

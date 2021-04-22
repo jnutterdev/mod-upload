@@ -36,7 +36,7 @@ exports.findAll = (req, res) => {
         message:
           err.message || "Some error occurred while retrieving customers."
       });
-     } else { res.render('home', { rows });
+     } else { res.render('usermgmt', { rows, title: "User management", subject: "Simple  user management system" });
     }
   });
 };
