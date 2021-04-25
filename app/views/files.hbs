@@ -1,0 +1,18 @@
+<form action="/files" method="POST" enctype="multipart/form-data" class="p-5">
+    <h1>Upload mod file</h1>
+    <sub>Accepts one of the following: .it, .s3m, .xm, .mod</sub>
+        <div class="file">
+        <label class="file-label">
+            <input class="file-input p-5" type="file" name="sampleFile" accept=".it, .s3m, .xm, .mod">
+            <span class="file-cta">
+            <span class="file-icon">
+                <i class="fas fa-upload"></i>
+            </span>
+            <span class="file-label">
+                Choose a file…
+            </span>
+            </span>
+        </label>
+        </div>
+    <input type="submit" value="Submit" class="button is-primary">
+</form>
