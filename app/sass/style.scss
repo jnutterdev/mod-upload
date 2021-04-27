@@ -1,2 +1,18 @@
 @charset "utf-8";
 @import "../../node_modules/bulma/bulma.sass";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+//
+// Fonts to use 
+// main player fonts: font-family: 'Press Start 2P', cursive;
+// cursive font: font-family: 'Shadows Into Light', cursive;
+//
+$background-color: #b39c5d;
+$text-color: #00aa00;
+$pattern-text: #aba9a9;
+$highlight-bg: #604d2b;
+$highlight-text: #fbe697;
+html,
+body {
+    background: black;
+}
