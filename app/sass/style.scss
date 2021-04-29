@@ -12,7 +12,29 @@ $text-color: #00aa00;
 $pattern-text: #aba9a9;
 $highlight-bg: #604d2b;
 $highlight-text: #fbe697;
+$main-text: 'Press Start 2P',
+cursive;
+$title-text: 'Shadows Into Light',
+cursive;
 html,
 body {
     background: black;
+    font-family: $main-text;
+}
+
+.trk-cntr {
+    background: $background-color;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 5px outset $highlight-text;
+}
+
+.nav-section {
+    background: black;
+    width: 75vw;
+    height: 30vh;
+    margin: 0 auto;
+    border: 5px outset $highlight-text;
 }
