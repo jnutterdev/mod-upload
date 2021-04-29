@@ -20,6 +20,18 @@ html,
 body {
     background: black;
     font-family: $main-text;
+    p {
+        color: black;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $title-text;
+    color: $text-color;
 }
 
 .trk-cntr {
@@ -29,11 +41,12 @@ body {
     max-width: 100%;
     margin: 0 auto;
     border: 5px outset $highlight-text;
+    border-radius: 5px 20px 5px
 }
 
 .nav-section {
     background: black;
-    width: 75vw;
+    width: 82vw;
     height: 30vh;
     margin: 0 auto;
     border: 5px outset $highlight-text;
