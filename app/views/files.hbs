@@ -1,18 +1,10 @@
 <form action="/files" method="POST" enctype="multipart/form-data" class="p-5">
     <p>Upload mod file</p>
     <sub>Accepts one of the following: .it, .s3m, .xm, .mod</sub>
-        <div class="file">
-        <label class="file-label my-5">
-            <input class="file-input p-5" type="file" name="sampleFile" accept=".it, .s3m, .xm, .mod">
-            <span class="file-cta">
-            <span class="file-icon">
-                <i class="fas fa-upload"></i>
-            </span>
-            <span class="file-label mr-6">
-                Choose a file…
-            </span>
-            </span>
-            <input type="submit" value="Submit" class="button is-light ml-6" />
-        </label>
-        </div>
+        <div class="nes-container">
+            <label class="nes-btn">
+                <span>Select your file</span>
+            <input type="file" name="sampleFile" accept=".it, .s3m, .xm, .mod"></label>
+            <input type="submit" value="Submit" class="nes-btn is-light" />
+       </div>
 </form>

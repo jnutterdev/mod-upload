@@ -1,12 +1,17 @@
+////////////////////////////////////////////////////////////////
+// Imports
+////////////////////////////////////////////////////////////////
 @charset "utf-8";
-@import "../../node_modules/bulma/bulma.sass";
+@import "../../node_modules/nes.css/scss/nes.scss";
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-//
-// Fonts to use 
+////////////////////////////////////////////////////////////////
+// Fonts to use:
 // main player fonts: font-family: 'Press Start 2P', cursive;
 // cursive font: font-family: 'Shadows Into Light', cursive;
 //
+// Variables and colors
+////////////////////////////////////////////////////////////////
 $background-color: #b39c5d;
 $text-color: #00aa00;
 $pattern-text: #aba9a9;
@@ -16,6 +21,9 @@ $main-text: 'Press Start 2P',
 cursive;
 $title-text: 'Shadows Into Light',
 cursive;
+////////////////////////////////////////////////////////////////
+// Selectors
+////////////////////////////////////////////////////////////////
 html,
 body {
     background: black;
@@ -49,6 +57,9 @@ a:hover {
     background: black;
 }
 
+////////////////////////////////////////////////////////////////
+// Custom classes
+////////////////////////////////////////////////////////////////
 .trk-cntr {
     background: $background-color;
     height: 100vh;

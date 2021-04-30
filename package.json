@@ -24,6 +24,7 @@
         "express-fileupload": "^1.2.1",
         "express-handlebars": "^5.2.1",
         "mysql": "^2.17.1",
+        "nes.css": "^2.3.0",
         "node-sass-middleware": "^0.11.0"
     },
     "devDependencies": {
