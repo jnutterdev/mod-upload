@@ -28,9 +28,6 @@ html,
 body {
     background: black;
     font-family: $main-text;
-    p {
-        color: black;
-    }
 }
 
 input[type=submit] {
@@ -47,14 +44,22 @@ h5 {
     color: $text-color;
 }
 
-a {
-    color: $pattern-text;
-    background: black;
+h1 {
+    font-size: 36px;
+    text-align: center;
 }
 
-a:hover {
-    color: white;
-    background: black;
+footer {
+    margin: 9px auto;
+    padding: 9px 18px;
+    text-align: center;
+    a {
+        color: $highlight-bg;
+    }
+    a:hover {
+        color: white;
+        background: black;
+    }
 }
 
 ////////////////////////////////////////////////////////////////
@@ -67,13 +72,35 @@ a:hover {
     max-width: 100%;
     margin: 0 auto;
     border: 5px outset $highlight-text;
-    border-radius: 5px 20px 5px
+    border-radius: 5px 20px 5px;
+    a {
+        color: $pattern-text;
+    }
+    a:hover {
+        color: white;
+        background: black;
+    }
 }
 
 .nav-section {
     background: black;
     width: 82vw;
     height: 30vh;
-    margin: 0 auto;
+    margin: 9px auto;
+    padding: 9px 18px;
     border: 5px outset $highlight-text;
+}
+
+.content-cntr {
+    max-width: 100%;
+    margin: 0 4rem;
+    background: black;
+    color: $pattern-text;
+    border: 5px outset $highlight-text;
+    padding: 9px 18px;
+}
+
+.content-titles {
+    max-width: 100%;
+    margin: 9px 4rem;
 }
