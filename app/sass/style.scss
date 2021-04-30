@@ -25,6 +25,11 @@ body {
     }
 }
 
+input[type=submit] {
+    font-family: $main-text;
+    color: black;
+}
+
 h1,
 h2,
 h3,
@@ -32,6 +37,16 @@ h4,
 h5 {
     font-family: $title-text;
     color: $text-color;
+}
+
+a {
+    color: $pattern-text;
+    background: black;
+}
+
+a:hover {
+    color: white;
+    background: black;
 }
 
 .trk-cntr {
