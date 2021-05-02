@@ -3,11 +3,9 @@
 A barebones project to bootstrap MySQL, Express.js, and Node.js. Features include:  
 
 - SASS for styling
-- Basic user management system 
-    - Located under    
-- Login/Signup page
 - File upload
 - Nodemon for hot reloading
+- NES.css for styling
 
 ## Project setup
 ```
