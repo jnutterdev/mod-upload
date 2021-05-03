@@ -5,20 +5,20 @@ module.exports = app => {
   const customers = require("../controllers/customer.controller.js");
 
    // Create a new Customer
-  app.post("/", customers.create);
+  app.post("/users", customers.create);
 
   // Retrieve all Customers
-  app.get("/", customers.findAll);
+  app.get("/users", customers.findAll);
 
   // Retrieve a single Customer with customerId
-  app.get("/:customerId", customers.findOne);
+  app.get("/users/:customerId", customers.findOne);
 
   // Update a Customer with customerId
-  app.put("/:customerId", customers.update);
+  app.put("/users/:customerId", customers.update);
 
   // Delete a Customer with customerId
-  app.delete("/:customerId", customers.delete);
+  app.delete("/users/:customerId", customers.delete);
 
   // Create a new Customer
-  app.delete("/", customers.deleteAll);
+  app.delete("/users", customers.deleteAll);
 };

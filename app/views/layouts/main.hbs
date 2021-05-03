@@ -8,24 +8,26 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="nes-container trk-cntr">
     <header>
-        {{> navbar }} {{> searchbar }}
-        <section class="hero is-primary mt-5 mb-5">
-            <div class="hero-body">
-                <p class="title">
-                    User management
+        {{> navbar }}
+        <section>
+            <div>
+                <p class="content-titles">
+                    {{title}}
                 </p>
-                <p class="subtitle">
-                    Display a list of users
+                <p class="content-titles">
+                    {{subject}}
                 </p>
             </div>
         </section>
     </header>
-    <main>
+    <main class="container content-cntr">
         {{{body}}}
     </main>
-        {{> footer }}
+     <footer>
+            {{> footer }}
+        </footer>
     </div>
 </body>
 </html>

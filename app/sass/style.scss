@@ -1,2 +1,107 @@
+////////////////////////////////////////////////////////////////
+// Imports
+////////////////////////////////////////////////////////////////
 @charset "utf-8";
+@import "../../node_modules/nes.css/scss/nes.scss";
 @import "../../node_modules/bulma/bulma.sass";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+////////////////////////////////////////////////////////////////
+// Fonts to use:
+// main player fonts: font-family: 'Press Start 2P', cursive;
+// cursive font: font-family: 'Shadows Into Light', cursive;
+//
+// Variables and colors
+////////////////////////////////////////////////////////////////
+$background-color: #b39c5d;
+$text-color: #00aa00;
+$pattern-text: #aba9a9;
+$highlight-bg: #604d2b;
+$highlight-text: #fbe697;
+$main-text: 'Press Start 2P',
+cursive;
+$title-text: 'Shadows Into Light',
+cursive;
+////////////////////////////////////////////////////////////////
+// Selectors
+////////////////////////////////////////////////////////////////
+html,
+body {
+    background: black;
+    font-family: $main-text;
+}
+
+input[type=submit] {
+    font-family: $main-text;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $title-text;
+    color: $text-color;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+footer {
+    margin: 9px auto;
+    padding: 9px 18px;
+    text-align: center;
+    a {
+        color: $highlight-bg;
+    }
+    a:hover {
+        color: white;
+        background: black;
+    }
+}
+
+////////////////////////////////////////////////////////////////
+// Custom classes
+////////////////////////////////////////////////////////////////
+.trk-cntr {
+    background: $background-color;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 5px outset $highlight-text;
+    border-radius: 5px 20px 5px;
+    a {
+        color: $pattern-text;
+    }
+    a:hover {
+        color: white;
+        background: black;
+    }
+}
+
+.nav-section {
+    background: black;
+    width: 82vw;
+    height: 30vh;
+    margin: 9px auto;
+    padding: 9px 18px;
+    border: 5px outset $highlight-text;
+}
+
+.content-cntr {
+    max-width: 100%;
+    margin: 0 4rem;
+    background: black;
+    color: $pattern-text;
+    border: 5px outset $highlight-text;
+    padding: 9px 18px;
+}
+
+.content-titles {
+    max-width: 100%;
+    margin: 9px 4rem;
+}
